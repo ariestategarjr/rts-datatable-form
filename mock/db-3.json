@@ -1,0 +1,1683 @@
+{
+  "karyawan": [
+    {
+      "id": 1,
+      "employeeId": 500,
+      "nama": "Ir. Abyasa Sirait, S.Farm",
+      "email": "limar05@yahoo.com",
+      "telepon": "+62-75-743-2475",
+      "tanggal_masuk": "2025-03-16",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 1,
+        "nama": "Production & Logistic Development"
+      },
+      "inventories": [
+        {
+          "id": 1000,
+          "nama": "Architecto",
+          "serial_number": "Cy051",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 500,
+          "jenjang": "D3",
+          "instansi": "PD Nuraini (Persero) Tbk",
+          "tahun_lulus": 2023
+        },
+        {
+          "id": 501,
+          "jenjang": "SMA",
+          "instansi": "UD Rahimah Sitompul",
+          "tahun_lulus": 2012
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Dimaz Hasanah",
+      "email": "gyuniar@yahoo.com",
+      "telepon": "+62-0026-409-0690",
+      "tanggal_masuk": "2017-06-06",
+      "status": {
+        "id": 5,
+        "nama": "Resign"
+      },
+      "departemen": {
+        "id": 1,
+        "nama": "Production & Logistic Development"
+      },
+      "inventories": [
+        {
+          "id": 1001,
+          "nama": "Quas",
+          "serial_number": "nI975",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1002,
+          "nama": "Nobis",
+          "serial_number": "do910",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 502,
+          "jenjang": "S2",
+          "instansi": "UD Sihombing Nurdiyanti Tbk",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "Citra Permata, M.M.",
+      "email": "candrakanta19@perum.sch.id",
+      "telepon": "(0234) 926-4443",
+      "tanggal_masuk": "2017-07-09",
+      "status": {
+        "id": 5,
+        "nama": "Resign"
+      },
+      "departemen": {
+        "id": 6,
+        "nama": "Research & System Development"
+      },
+      "inventories": [
+        {
+          "id": 1003,
+          "nama": "Occaecati",
+          "serial_number": "CS105",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1004,
+          "nama": "Perspiciatis",
+          "serial_number": "Jy016",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1005,
+          "nama": "Harum",
+          "serial_number": "vK091",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1006,
+          "nama": "Illum",
+          "serial_number": "Dj729",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 503,
+          "jenjang": "S1",
+          "instansi": "PT Nugroho Rajata Tbk",
+          "tahun_lulus": 2012
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nama": "Lala Maulana",
+      "email": "safina56@hotmail.com",
+      "telepon": "080 655 2381",
+      "tanggal_masuk": "2021-03-24",
+      "status": {
+        "id": 4,
+        "nama": "Tetap"
+      },
+      "departemen": {
+        "id": 4,
+        "nama": "Administrative & Financial Development"
+      },
+      "inventories": [
+        {
+          "id": 1007,
+          "nama": "Ipsa",
+          "serial_number": "BX560",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1008,
+          "nama": "Dolores",
+          "serial_number": "Yr901",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1009,
+          "nama": "Dolores",
+          "serial_number": "hQ853",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 504,
+          "jenjang": "SMA",
+          "instansi": "PT Suartini Pudjiastuti (Persero) Tbk",
+          "tahun_lulus": 2019
+        },
+        {
+          "id": 505,
+          "jenjang": "S2",
+          "instansi": "CV Wahyudin (Persero) Tbk",
+          "tahun_lulus": 2009
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nama": "Qori Saragih, S.Farm",
+      "email": "ellasamosir@perum.desa.id",
+      "telepon": "(000) 414-7403",
+      "tanggal_masuk": "2019-08-14",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1010,
+          "nama": "Magnam",
+          "serial_number": "wh109",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1011,
+          "nama": "Commodi",
+          "serial_number": "zk437",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1012,
+          "nama": "Minus",
+          "serial_number": "Zj800",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 506,
+          "jenjang": "S2",
+          "instansi": "PT Najmudin",
+          "tahun_lulus": 2012
+        },
+        {
+          "id": 507,
+          "jenjang": "S2",
+          "instansi": "PT Mangunsong",
+          "tahun_lulus": 2022
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nama": "Cakrajiya Yuniar",
+      "email": "dpadmasari@gmail.com",
+      "telepon": "+62 (17) 431-9479",
+      "tanggal_masuk": "2024-03-28",
+      "status": {
+        "id": 7,
+        "nama": "Habis Kontrak"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1013,
+          "nama": "Cum",
+          "serial_number": "pi090",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1014,
+          "nama": "Ratione",
+          "serial_number": "Td002",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1015,
+          "nama": "Architecto",
+          "serial_number": "OF486",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1016,
+          "nama": "Optio",
+          "serial_number": "AB999",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 508,
+          "jenjang": "S2",
+          "instansi": "PD Natsir Haryanto",
+          "tahun_lulus": 2006
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nama": "R.A. Anita Budiman, M.M.",
+      "email": "omaryadi@cv.int",
+      "telepon": "084 870 0009",
+      "tanggal_masuk": "2022-11-29",
+      "status": {
+        "id": 1,
+        "nama": "Calon Karyawan"
+      },
+      "departemen": {
+        "id": 1,
+        "nama": "Production & Logistic Development"
+      },
+      "inventories": [
+        {
+          "id": 1017,
+          "nama": "Perferendis",
+          "serial_number": "ao254",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 509,
+          "jenjang": "S2",
+          "instansi": "CV Laksita (Persero) Tbk",
+          "tahun_lulus": 2005
+        },
+        {
+          "id": 510,
+          "jenjang": "D3",
+          "instansi": "UD Permadi Pradipta",
+          "tahun_lulus": 2012
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nama": "Drs. Michelle Saragih",
+      "email": "unjanisamosir@pt.org",
+      "telepon": "+62-0520-017-0784",
+      "tanggal_masuk": "2025-09-25",
+      "status": {
+        "id": 1,
+        "nama": "Calon Karyawan"
+      },
+      "departemen": {
+        "id": 6,
+        "nama": "Research & System Development"
+      },
+      "inventories": [
+        {
+          "id": 1018,
+          "nama": "Quae",
+          "serial_number": "tb226",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1019,
+          "nama": "Ratione",
+          "serial_number": "CI779",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1020,
+          "nama": "Quos",
+          "serial_number": "AW364",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1021,
+          "nama": "At",
+          "serial_number": "aC329",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 511,
+          "jenjang": "D3",
+          "instansi": "UD Uyainah Adriansyah",
+          "tahun_lulus": 2023
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nama": "Yulia Usada",
+      "email": "ivanaryani@yahoo.com",
+      "telepon": "+62 (945) 098 6703",
+      "tanggal_masuk": "2021-11-13",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1022,
+          "nama": "Saepe",
+          "serial_number": "kF024",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1023,
+          "nama": "Accusamus",
+          "serial_number": "gr234",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1024,
+          "nama": "Sed",
+          "serial_number": "ir429",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 512,
+          "jenjang": "D3",
+          "instansi": "Perum Habibi Tarihoran (Persero) Tbk",
+          "tahun_lulus": 2019
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nama": "Vanesa Wibowo",
+      "email": "asmadi31@perum.int",
+      "telepon": "(0419) 608 6177",
+      "tanggal_masuk": "2022-04-20",
+      "status": {
+        "id": 1,
+        "nama": "Calon Karyawan"
+      },
+      "departemen": {
+        "id": 3,
+        "nama": "Product & Brand Development"
+      },
+      "inventories": [
+        {
+          "id": 1025,
+          "nama": "Sed",
+          "serial_number": "xA744",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1026,
+          "nama": "Magni",
+          "serial_number": "VJ480",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1027,
+          "nama": "Consequatur",
+          "serial_number": "TE194",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 513,
+          "jenjang": "D3",
+          "instansi": "Perum Mahendra Mandasari (Persero) Tbk",
+          "tahun_lulus": 2012
+        },
+        {
+          "id": 514,
+          "jenjang": "SMA",
+          "instansi": "PT Tarihoran Padmasari Tbk",
+          "tahun_lulus": 2014
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nama": "Jumadi Budiyanto",
+      "email": "wardayanovitasari@gmail.com",
+      "telepon": "087 640 1138",
+      "tanggal_masuk": "2022-12-25",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 4,
+        "nama": "Administrative & Financial Development"
+      },
+      "inventories": [
+        {
+          "id": 1028,
+          "nama": "Qui",
+          "serial_number": "Gh215",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1029,
+          "nama": "Eius",
+          "serial_number": "Va256",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1030,
+          "nama": "Ipsam",
+          "serial_number": "KB989",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 515,
+          "jenjang": "S2",
+          "instansi": "PD Lestari Tbk",
+          "tahun_lulus": 2008
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nama": "Ida Prasasta",
+      "email": "damaniksamsul@hotmail.com",
+      "telepon": "+62 (0685) 527-3024",
+      "tanggal_masuk": "2019-12-20",
+      "status": {
+        "id": 2,
+        "nama": "Training"
+      },
+      "departemen": {
+        "id": 6,
+        "nama": "Research & System Development"
+      },
+      "inventories": [
+        {
+          "id": 1031,
+          "nama": "Voluptatibus",
+          "serial_number": "eP586",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1032,
+          "nama": "Maiores",
+          "serial_number": "JQ292",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1033,
+          "nama": "Distinctio",
+          "serial_number": "aI830",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1034,
+          "nama": "Voluptatum",
+          "serial_number": "pu036",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 516,
+          "jenjang": "SMA",
+          "instansi": "CV Novitasari",
+          "tahun_lulus": 2017
+        },
+        {
+          "id": 517,
+          "jenjang": "SMA",
+          "instansi": "PT Lestari Laksmiwati",
+          "tahun_lulus": 2022
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nama": "Oskar Yuniar",
+      "email": "ynamaga@hotmail.com",
+      "telepon": "(096) 539 3156",
+      "tanggal_masuk": "2021-08-18",
+      "status": {
+        "id": 2,
+        "nama": "Training"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1035,
+          "nama": "Autem",
+          "serial_number": "ws141",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1036,
+          "nama": "Facere",
+          "serial_number": "wy187",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1037,
+          "nama": "Eius",
+          "serial_number": "Uc939",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1038,
+          "nama": "Quibusdam",
+          "serial_number": "aq281",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 518,
+          "jenjang": "D3",
+          "instansi": "UD Mandasari",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nama": "Yance Sitorus, S.Kom",
+      "email": "alambanahardiansyah@cv.ac.id",
+      "telepon": "+62 (0597) 774-2701",
+      "tanggal_masuk": "2016-02-25",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 4,
+        "nama": "Administrative & Financial Development"
+      },
+      "inventories": [
+        {
+          "id": 1039,
+          "nama": "Facilis",
+          "serial_number": "IZ292",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1040,
+          "nama": "Suscipit",
+          "serial_number": "BY497",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 519,
+          "jenjang": "D3",
+          "instansi": "Perum Ardianto",
+          "tahun_lulus": 2023
+        },
+        {
+          "id": 520,
+          "jenjang": "S2",
+          "instansi": "Perum Nababan",
+          "tahun_lulus": 2014
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nama": "Betania Suryono",
+      "email": "restu94@yahoo.com",
+      "telepon": "+62-039-436-4695",
+      "tanggal_masuk": "2019-05-21",
+      "status": {
+        "id": 6,
+        "nama": "Internship"
+      },
+      "departemen": {
+        "id": 4,
+        "nama": "Administrative & Financial Development"
+      },
+      "inventories": [
+        {
+          "id": 1041,
+          "nama": "Assumenda",
+          "serial_number": "Sv161",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1042,
+          "nama": "Modi",
+          "serial_number": "pD856",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1043,
+          "nama": "Officiis",
+          "serial_number": "hq764",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 521,
+          "jenjang": "SMA",
+          "instansi": "PT Purnawati Rahmawati",
+          "tahun_lulus": 2014
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nama": "Daliman Prasetya",
+      "email": "dodo25@gmail.com",
+      "telepon": "+62-0712-562-7194",
+      "tanggal_masuk": "2020-05-26",
+      "status": {
+        "id": 1,
+        "nama": "Calon Karyawan"
+      },
+      "departemen": {
+        "id": 3,
+        "nama": "Product & Brand Development"
+      },
+      "inventories": [
+        {
+          "id": 1044,
+          "nama": "Minima",
+          "serial_number": "ED743",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1045,
+          "nama": "Veniam",
+          "serial_number": "vr091",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1046,
+          "nama": "Ab",
+          "serial_number": "qE559",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 522,
+          "jenjang": "S1",
+          "instansi": "PT Kuswandari",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nama": "Salimah Tampubolon, M.Ak",
+      "email": "hasanahzamira@pt.or.id",
+      "telepon": "(0156) 179 2964",
+      "tanggal_masuk": "2019-09-11",
+      "status": {
+        "id": 4,
+        "nama": "Tetap"
+      },
+      "departemen": {
+        "id": 1,
+        "nama": "Production & Logistic Development"
+      },
+      "inventories": [
+        {
+          "id": 1047,
+          "nama": "Error",
+          "serial_number": "QF105",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 523,
+          "jenjang": "SMA",
+          "instansi": "PT Pratama Prastuti",
+          "tahun_lulus": 2007
+        },
+        {
+          "id": 524,
+          "jenjang": "D3",
+          "instansi": "CV Suryono Uwais Tbk",
+          "tahun_lulus": 2019
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nama": "Sutan Pranata Damanik",
+      "email": "upik99@ud.gov",
+      "telepon": "+62 (896) 023-0145",
+      "tanggal_masuk": "2019-12-29",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 2,
+        "nama": "Marketing & Service Development"
+      },
+      "inventories": [
+        {
+          "id": 1048,
+          "nama": "Est",
+          "serial_number": "jU193",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1049,
+          "nama": "Quo",
+          "serial_number": "OY905",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1050,
+          "nama": "Facilis",
+          "serial_number": "vm020",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 525,
+          "jenjang": "S2",
+          "instansi": "CV Gunawan",
+          "tahun_lulus": 2014
+        },
+        {
+          "id": 526,
+          "jenjang": "SMA",
+          "instansi": "UD Gunawan Tbk",
+          "tahun_lulus": 2020
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nama": "Yance Wahyuni",
+      "email": "rahmizulkarnain@cv.ac.id",
+      "telepon": "+62-0009-707-3972",
+      "tanggal_masuk": "2019-05-22",
+      "status": {
+        "id": 6,
+        "nama": "Internship"
+      },
+      "departemen": {
+        "id": 2,
+        "nama": "Marketing & Service Development"
+      },
+      "inventories": [
+        {
+          "id": 1051,
+          "nama": "Doloribus",
+          "serial_number": "CY944",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1052,
+          "nama": "Numquam",
+          "serial_number": "Bh673",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1053,
+          "nama": "Aut",
+          "serial_number": "xx869",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 527,
+          "jenjang": "S2",
+          "instansi": "CV Kuswoyo Marbun (Persero) Tbk",
+          "tahun_lulus": 2005
+        },
+        {
+          "id": 528,
+          "jenjang": "S1",
+          "instansi": "PD Halim (Persero) Tbk",
+          "tahun_lulus": 2017
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nama": "Dt. Darmaji Ramadan, S.I.Kom",
+      "email": "gramadan@cv.web.id",
+      "telepon": "(0913) 278-6192",
+      "tanggal_masuk": "2024-05-22",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 2,
+        "nama": "Marketing & Service Development"
+      },
+      "inventories": [
+        {
+          "id": 1054,
+          "nama": "Nostrum",
+          "serial_number": "jb070",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 529,
+          "jenjang": "SMA",
+          "instansi": "PT Sinaga",
+          "tahun_lulus": 2022
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "nama": "Vivi Kuswoyo",
+      "email": "hardikuswandari@cv.go.id",
+      "telepon": "+62-946-427-6735",
+      "tanggal_masuk": "2017-05-05",
+      "status": {
+        "id": 3,
+        "nama": "Kontrak"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1055,
+          "nama": "Qui",
+          "serial_number": "oj405",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1056,
+          "nama": "Pariatur",
+          "serial_number": "QC647",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1057,
+          "nama": "Eligendi",
+          "serial_number": "CZ326",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1058,
+          "nama": "Aliquid",
+          "serial_number": "lV877",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 530,
+          "jenjang": "SMA",
+          "instansi": "PD Wahyudin Puspita",
+          "tahun_lulus": 2018
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "nama": "Amalia Haryanti",
+      "email": "mangunsongnrima@hotmail.com",
+      "telepon": "(053) 095 0823",
+      "tanggal_masuk": "2016-07-15",
+      "status": {
+        "id": 6,
+        "nama": "Internship"
+      },
+      "departemen": {
+        "id": 5,
+        "nama": "Human Resource, Public Relation & General Affairs Development"
+      },
+      "inventories": [
+        {
+          "id": 1059,
+          "nama": "Illum",
+          "serial_number": "li548",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1060,
+          "nama": "Voluptas",
+          "serial_number": "Vi436",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1061,
+          "nama": "Suscipit",
+          "serial_number": "Vs030",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1062,
+          "nama": "Quia",
+          "serial_number": "tc961",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 531,
+          "jenjang": "S2",
+          "instansi": "PD Nuraini (Persero) Tbk",
+          "tahun_lulus": 2019
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "nama": "Anggabaya Oktaviani",
+      "email": "hadriansyah@hotmail.com",
+      "telepon": "0879431207",
+      "tanggal_masuk": "2022-10-30",
+      "status": {
+        "id": 4,
+        "nama": "Tetap"
+      },
+      "departemen": {
+        "id": 3,
+        "nama": "Product & Brand Development"
+      },
+      "inventories": [
+        {
+          "id": 1063,
+          "nama": "Autem",
+          "serial_number": "Sm762",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1064,
+          "nama": "Maxime",
+          "serial_number": "GG815",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 532,
+          "jenjang": "D3",
+          "instansi": "Perum Hariyah Firmansyah",
+          "tahun_lulus": 2012
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nama": "KH. Oman Pratiwi",
+      "email": "parman55@cv.my.id",
+      "telepon": "+62 (066) 051 7488",
+      "tanggal_masuk": "2021-11-17",
+      "status": {
+        "id": 1,
+        "nama": "Calon Karyawan"
+      },
+      "departemen": {
+        "id": 4,
+        "nama": "Administrative & Financial Development"
+      },
+      "inventories": [
+        {
+          "id": 1065,
+          "nama": "Cumque",
+          "serial_number": "Jb200",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1066,
+          "nama": "Occaecati",
+          "serial_number": "Zt167",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 533,
+          "jenjang": "D3",
+          "instansi": "PD Mahendra Winarno (Persero) Tbk",
+          "tahun_lulus": 2023
+        },
+        {
+          "id": 534,
+          "jenjang": "S2",
+          "instansi": "CV Suwarno",
+          "tahun_lulus": 2013
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "nama": "Ivan Damanik",
+      "email": "safina28@perum.or.id",
+      "telepon": "089 366 3447",
+      "tanggal_masuk": "2022-09-28",
+      "status": {
+        "id": 2,
+        "nama": "Training"
+      },
+      "departemen": {
+        "id": 2,
+        "nama": "Marketing & Service Development"
+      },
+      "inventories": [
+        {
+          "id": 1067,
+          "nama": "Nisi",
+          "serial_number": "aR912",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1068,
+          "nama": "Nisi",
+          "serial_number": "vx670",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 535,
+          "jenjang": "D3",
+          "instansi": "PD Sudiati Saragih Tbk",
+          "tahun_lulus": 2015
+        }
+      ]
+    }
+  ]
+}

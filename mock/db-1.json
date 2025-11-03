@@ -1,0 +1,235 @@
+{
+  "divisi": [
+    { "id": 1, "nama": "HR" },
+    { "id": 2, "nama": "Finance" },
+    { "id": 3, "nama": "IT" },
+    { "id": 4, "nama": "Marketing" },
+    { "id": 5, "nama": "Production" }
+  ],
+  "jabatan": [
+    { "id": 1, "nama": "Staff" },
+    { "id": 2, "nama": "Supervisor" },
+    { "id": 3, "nama": "Manager" },
+    { "id": 4, "nama": "Assistant Manager" },
+    { "id": 5, "nama": "Director" }
+  ],
+  "golongan": [
+    {
+      "id": 1,
+      "nama": "A",
+      "divisi_id": 1,
+      "jabatan_id": 1,
+      "gaji_pokok": 4000000,
+      "tunjangan": 500000
+    },
+    {
+      "id": 2,
+      "nama": "B",
+      "divisi_id": 2,
+      "jabatan_id": 2,
+      "gaji_pokok": 5500000,
+      "tunjangan": 750000
+    },
+    {
+      "id": 3,
+      "nama": "C",
+      "divisi_id": 3,
+      "jabatan_id": 3,
+      "gaji_pokok": 7000000,
+      "tunjangan": 1000000
+    },
+    {
+      "id": 4,
+      "nama": "D",
+      "divisi_id": 4,
+      "jabatan_id": 4,
+      "gaji_pokok": 8500000,
+      "tunjangan": 1250000
+    },
+    {
+      "id": 5,
+      "nama": "E",
+      "divisi_id": 5,
+      "jabatan_id": 5,
+      "gaji_pokok": 10000000,
+      "tunjangan": 1500000
+    }
+  ],
+  "karyawan": [
+    {
+      "id": 1,
+      "nama": "Andi",
+      "golongan_id": 1,
+      "email": "andi@example.com",
+      "telepon": "0811111111"
+    },
+    {
+      "id": 2,
+      "nama": "Budi",
+      "golongan_id": 2,
+      "email": "budi@example.com",
+      "telepon": "0811111112"
+    },
+    {
+      "id": 3,
+      "nama": "Citra",
+      "golongan_id": 3,
+      "email": "citra@example.com",
+      "telepon": "0811111113"
+    },
+    {
+      "id": 4,
+      "nama": "Dewi",
+      "golongan_id": 4,
+      "email": "dewi@example.com",
+      "telepon": "0811111114"
+    },
+    {
+      "id": 5,
+      "nama": "Eko",
+      "golongan_id": 5,
+      "email": "eko@example.com",
+      "telepon": "0811111115"
+    },
+    {
+      "id": 6,
+      "nama": "Fajar",
+      "golongan_id": 1,
+      "email": "fajar@example.com",
+      "telepon": "0811111116"
+    },
+    {
+      "id": 7,
+      "nama": "Gita",
+      "golongan_id": 2,
+      "email": "gita@example.com",
+      "telepon": "0811111117"
+    },
+    {
+      "id": 8,
+      "nama": "Hari",
+      "golongan_id": 3,
+      "email": "hari@example.com",
+      "telepon": "0811111118"
+    },
+    {
+      "id": 9,
+      "nama": "Indah",
+      "golongan_id": 4,
+      "email": "indah@example.com",
+      "telepon": "0811111119"
+    },
+    {
+      "id": 10,
+      "nama": "Joko",
+      "golongan_id": 5,
+      "email": "joko@example.com",
+      "telepon": "0811111120"
+    },
+    {
+      "id": 11,
+      "nama": "Kiki",
+      "golongan_id": 1,
+      "email": "kiki@example.com",
+      "telepon": "0811111121"
+    },
+    {
+      "id": 12,
+      "nama": "Lina",
+      "golongan_id": 2,
+      "email": "lina@example.com",
+      "telepon": "0811111122"
+    },
+    {
+      "id": 13,
+      "nama": "Maman",
+      "golongan_id": 3,
+      "email": "maman@example.com",
+      "telepon": "0811111123"
+    },
+    {
+      "id": 14,
+      "nama": "Nina",
+      "golongan_id": 4,
+      "email": "nina@example.com",
+      "telepon": "0811111124"
+    },
+    {
+      "id": 15,
+      "nama": "Oki",
+      "golongan_id": 5,
+      "email": "oki@example.com",
+      "telepon": "0811111125"
+    },
+    {
+      "id": 16,
+      "nama": "Putri",
+      "golongan_id": 1,
+      "email": "putri@example.com",
+      "telepon": "0811111126"
+    },
+    {
+      "id": 17,
+      "nama": "Qori",
+      "golongan_id": 2,
+      "email": "qori@example.com",
+      "telepon": "0811111127"
+    },
+    {
+      "id": 18,
+      "nama": "Rama",
+      "golongan_id": 3,
+      "email": "rama@example.com",
+      "telepon": "0811111128"
+    },
+    {
+      "id": 19,
+      "nama": "Sinta",
+      "golongan_id": 4,
+      "email": "sinta@example.com",
+      "telepon": "0811111129"
+    },
+    {
+      "id": 20,
+      "nama": "Tono",
+      "golongan_id": 5,
+      "email": "tono@example.com",
+      "telepon": "0811111130"
+    },
+    {
+      "id": 21,
+      "nama": "Umar",
+      "golongan_id": 1,
+      "email": "umar@example.com",
+      "telepon": "0811111131"
+    },
+    {
+      "id": 22,
+      "nama": "Vina",
+      "golongan_id": 2,
+      "email": "vina@example.com",
+      "telepon": "0811111132"
+    },
+    {
+      "id": 23,
+      "nama": "Wawan",
+      "golongan_id": 3,
+      "email": "wawan@example.com",
+      "telepon": "0811111133"
+    },
+    {
+      "id": 24,
+      "nama": "Xenia",
+      "golongan_id": 4,
+      "email": "xenia@example.com",
+      "telepon": "0811111134"
+    },
+    {
+      "id": 25,
+      "nama": "Yoga",
+      "golongan_id": 5,
+      "email": "yoga@example.com",
+      "telepon": "0811111135"
+    }
+  ]
+}

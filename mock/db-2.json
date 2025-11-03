@@ -1,0 +1,1611 @@
+{
+  "karyawan": [
+    {
+      "id": 1,
+      "nama": "Ira Yuliarti, S.H.",
+      "email": "safinahabibi@yahoo.com",
+      "telepon": "+62 (42) 122 0255",
+      "inventories": [
+        {
+          "id": 1000,
+          "nama": "Dolor",
+          "serial_number": "xp315",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1001,
+          "nama": "Magni",
+          "serial_number": "Uo684",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 500,
+          "jenjang": "D3",
+          "instansi": "CV Zulaika Sihombing",
+          "tahun_lulus": 2022
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Gilda Wacana",
+      "email": "garang24@gmail.com",
+      "telepon": "+62-876-116-2103",
+      "inventories": [
+        {
+          "id": 1002,
+          "nama": "Quos",
+          "serial_number": "bl543",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1003,
+          "nama": "Sequi",
+          "serial_number": "HB759",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1004,
+          "nama": "Sit",
+          "serial_number": "aU236",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1005,
+          "nama": "Quas",
+          "serial_number": "es121",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 501,
+          "jenjang": "S2",
+          "instansi": "Perum Sinaga Latupono",
+          "tahun_lulus": 2023
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "Chelsea Oktaviani",
+      "email": "jamalnatsir@yahoo.com",
+      "telepon": "+62 (064) 030 0953",
+      "inventories": [
+        {
+          "id": 1006,
+          "nama": "Magni",
+          "serial_number": "lV636",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1007,
+          "nama": "Nesciunt",
+          "serial_number": "tp438",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1008,
+          "nama": "Tempora",
+          "serial_number": "Ve016",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 502,
+          "jenjang": "S2",
+          "instansi": "CV Natsir (Persero) Tbk",
+          "tahun_lulus": 2019
+        },
+        {
+          "id": 503,
+          "jenjang": "D3",
+          "instansi": "UD Haryanti (Persero) Tbk",
+          "tahun_lulus": 2009
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nama": "Cawisono Haryanto, S.Kom",
+      "email": "keishaiswahyudi@cv.id",
+      "telepon": "+62 (482) 271 7563",
+      "inventories": [
+        {
+          "id": 1009,
+          "nama": "Vero",
+          "serial_number": "or583",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1010,
+          "nama": "Occaecati",
+          "serial_number": "oB002",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1011,
+          "nama": "Autem",
+          "serial_number": "lj101",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1012,
+          "nama": "Minima",
+          "serial_number": "bl625",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 504,
+          "jenjang": "SMA",
+          "instansi": "UD Hutapea Utami Tbk",
+          "tahun_lulus": 2017
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nama": "Drs. Ghaliyati Winarsih",
+      "email": "qkuswoyo@pd.web.id",
+      "telepon": "088 895 4448",
+      "inventories": [
+        {
+          "id": 1013,
+          "nama": "Atque",
+          "serial_number": "oY285",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1014,
+          "nama": "Nemo",
+          "serial_number": "mQ227",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 505,
+          "jenjang": "S1",
+          "instansi": "CV Lailasari (Persero) Tbk",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nama": "Viman Dongoran",
+      "email": "karnanovitasari@cv.sch.id",
+      "telepon": "+62 (61) 460 6082",
+      "inventories": [
+        {
+          "id": 1015,
+          "nama": "Eveniet",
+          "serial_number": "pD085",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1016,
+          "nama": "Qui",
+          "serial_number": "Vi814",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1017,
+          "nama": "Dolor",
+          "serial_number": "lv660",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 506,
+          "jenjang": "SMA",
+          "instansi": "Perum Saputra Maryati",
+          "tahun_lulus": 2014
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nama": "Balidin Prasasta",
+      "email": "ajimat01@yahoo.com",
+      "telepon": "+62 (007) 682-1986",
+      "inventories": [
+        {
+          "id": 1018,
+          "nama": "Tenetur",
+          "serial_number": "Lg160",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1019,
+          "nama": "Ullam",
+          "serial_number": "jK122",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1020,
+          "nama": "Aspernatur",
+          "serial_number": "Nu519",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1021,
+          "nama": "Aliquam",
+          "serial_number": "kT907",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 507,
+          "jenjang": "D3",
+          "instansi": "UD Yuliarti Lailasari",
+          "tahun_lulus": 2013
+        },
+        {
+          "id": 508,
+          "jenjang": "D3",
+          "instansi": "UD Nasyiah Rajata",
+          "tahun_lulus": 2019
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nama": "Galak Nuraini, S.Psi",
+      "email": "garawinarsih@pd.biz.id",
+      "telepon": "+62 (054) 386-3106",
+      "inventories": [
+        {
+          "id": 1022,
+          "nama": "Velit",
+          "serial_number": "uq047",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1023,
+          "nama": "Deserunt",
+          "serial_number": "yC871",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 509,
+          "jenjang": "D3",
+          "instansi": "Perum Aryani",
+          "tahun_lulus": 2005
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nama": "Kani Nugroho",
+      "email": "victoriamansur@pd.or.id",
+      "telepon": "(051) 970 0632",
+      "inventories": [
+        {
+          "id": 1024,
+          "nama": "Sit",
+          "serial_number": "Ky946",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1025,
+          "nama": "Exercitationem",
+          "serial_number": "OI019",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 510,
+          "jenjang": "S1",
+          "instansi": "CV Nashiruddin (Persero) Tbk",
+          "tahun_lulus": 2011
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nama": "Dt. Nugraha Irawan",
+      "email": "kmelani@hotmail.com",
+      "telepon": "+62 (067) 056 3713",
+      "inventories": [
+        {
+          "id": 1026,
+          "nama": "Ea",
+          "serial_number": "zu098",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1027,
+          "nama": "Enim",
+          "serial_number": "du320",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1028,
+          "nama": "Veniam",
+          "serial_number": "Ba762",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1029,
+          "nama": "Sapiente",
+          "serial_number": "Zm622",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 511,
+          "jenjang": "SMA",
+          "instansi": "PT Zulaika",
+          "tahun_lulus": 2012
+        },
+        {
+          "id": 512,
+          "jenjang": "S1",
+          "instansi": "Perum Hidayanto",
+          "tahun_lulus": 2011
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nama": "Vanesa Agustina",
+      "email": "mursitatampubolon@ud.edu",
+      "telepon": "089 622 2911",
+      "inventories": [
+        {
+          "id": 1030,
+          "nama": "Omnis",
+          "serial_number": "Fv674",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 513,
+          "jenjang": "SMA",
+          "instansi": "PD Prasetya",
+          "tahun_lulus": 2010
+        },
+        {
+          "id": 514,
+          "jenjang": "S1",
+          "instansi": "Perum Anggraini Tbk",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nama": "Danu Yolanda",
+      "email": "prayogazulkarnain@pt.int",
+      "telepon": "+62-72-353-2322",
+      "inventories": [
+        {
+          "id": 1031,
+          "nama": "Velit",
+          "serial_number": "Gx415",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1032,
+          "nama": "Possimus",
+          "serial_number": "Mu211",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1033,
+          "nama": "Eum",
+          "serial_number": "lg499",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1034,
+          "nama": "Tenetur",
+          "serial_number": "tz085",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 515,
+          "jenjang": "SMA",
+          "instansi": "PD Lazuardi Sihombing",
+          "tahun_lulus": 2021
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nama": "Dt. Tasdik Hutasoit",
+      "email": "prayitnasimanjuntak@ud.net",
+      "telepon": "+62 (0152) 944 2810",
+      "inventories": [
+        {
+          "id": 1035,
+          "nama": "Aut",
+          "serial_number": "Kv256",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1036,
+          "nama": "Quisquam",
+          "serial_number": "yB280",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1037,
+          "nama": "Alias",
+          "serial_number": "py908",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 516,
+          "jenjang": "D3",
+          "instansi": "CV Hakim Tbk",
+          "tahun_lulus": 2013
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nama": "Ir. Karen Waluyo, S.Sos",
+      "email": "ivan44@yahoo.com",
+      "telepon": "0869145460",
+      "inventories": [
+        {
+          "id": 1038,
+          "nama": "Eligendi",
+          "serial_number": "TW251",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1039,
+          "nama": "Autem",
+          "serial_number": "dH758",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1040,
+          "nama": "Ex",
+          "serial_number": "kW344",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1041,
+          "nama": "Eum",
+          "serial_number": "ew301",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 517,
+          "jenjang": "D3",
+          "instansi": "Perum Hidayanto Permadi",
+          "tahun_lulus": 2014
+        },
+        {
+          "id": 518,
+          "jenjang": "D3",
+          "instansi": "PT Yuniar Salahudin",
+          "tahun_lulus": 2013
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nama": "Ir. Ida Najmudin",
+      "email": "julimarbun@cv.my.id",
+      "telepon": "+62-06-391-5263",
+      "inventories": [
+        {
+          "id": 1042,
+          "nama": "Reiciendis",
+          "serial_number": "wv262",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1043,
+          "nama": "Nemo",
+          "serial_number": "GQ739",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1044,
+          "nama": "Ex",
+          "serial_number": "zL791",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1045,
+          "nama": "Ex",
+          "serial_number": "FI656",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 519,
+          "jenjang": "S2",
+          "instansi": "PD Siregar Maryadi (Persero) Tbk",
+          "tahun_lulus": 2010
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nama": "drg. Tami Maryadi",
+      "email": "hsudiati@cv.web.id",
+      "telepon": "+62 (0122) 462 9755",
+      "inventories": [
+        {
+          "id": 1046,
+          "nama": "Dolore",
+          "serial_number": "yq558",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1047,
+          "nama": "Ad",
+          "serial_number": "vF616",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 520,
+          "jenjang": "S2",
+          "instansi": "PD Saragih Usada",
+          "tahun_lulus": 2016
+        },
+        {
+          "id": 521,
+          "jenjang": "S1",
+          "instansi": "CV Hastuti Nasyiah Tbk",
+          "tahun_lulus": 2009
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nama": "Titi Haryanto",
+      "email": "utampubolon@pt.id",
+      "telepon": "+62 (098) 035-9568",
+      "inventories": [
+        {
+          "id": 1048,
+          "nama": "Nam",
+          "serial_number": "lg179",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1049,
+          "nama": "Cumque",
+          "serial_number": "DH809",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1050,
+          "nama": "Voluptates",
+          "serial_number": "qA409",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 522,
+          "jenjang": "S1",
+          "instansi": "Perum Uyainah Pertiwi",
+          "tahun_lulus": 2009
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nama": "Dt. Darmana Prasetya",
+      "email": "uyainahhasim@yahoo.com",
+      "telepon": "+62-01-602-3947",
+      "inventories": [
+        {
+          "id": 1051,
+          "nama": "Qui",
+          "serial_number": "iS099",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1052,
+          "nama": "Voluptates",
+          "serial_number": "zU619",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 523,
+          "jenjang": "D3",
+          "instansi": "CV Palastri Safitri Tbk",
+          "tahun_lulus": 2022
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nama": "Galih Andriani",
+      "email": "firgantorogalang@gmail.com",
+      "telepon": "(051) 948-6473",
+      "inventories": [
+        {
+          "id": 1053,
+          "nama": "Quidem",
+          "serial_number": "VQ440",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1054,
+          "nama": "Eius",
+          "serial_number": "th354",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1055,
+          "nama": "Dolores",
+          "serial_number": "Rw479",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1056,
+          "nama": "Omnis",
+          "serial_number": "tj203",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 524,
+          "jenjang": "D3",
+          "instansi": "CV Simanjuntak",
+          "tahun_lulus": 2012
+        },
+        {
+          "id": 525,
+          "jenjang": "S1",
+          "instansi": "Perum Kusmawati Zulkarnain",
+          "tahun_lulus": 2012
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nama": "Sakti Halimah",
+      "email": "mardhiyahnardi@pt.sch.id",
+      "telepon": "0884420438",
+      "inventories": [
+        {
+          "id": 1057,
+          "nama": "Hic",
+          "serial_number": "Yu170",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            }
+          ]
+        },
+        {
+          "id": 1058,
+          "nama": "Minima",
+          "serial_number": "wo205",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1059,
+          "nama": "Voluptatem",
+          "serial_number": "nz870",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 526,
+          "jenjang": "S1",
+          "instansi": "CV Firmansyah",
+          "tahun_lulus": 2006
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "nama": "drg. Syahrini Farida, S.Psi",
+      "email": "winarsihjagapati@gmail.com",
+      "telepon": "081 328 0377",
+      "inventories": [
+        {
+          "id": 1060,
+          "nama": "Consectetur",
+          "serial_number": "nD512",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1061,
+          "nama": "Sunt",
+          "serial_number": "zC737",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1062,
+          "nama": "Tenetur",
+          "serial_number": "sg330",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 527,
+          "jenjang": "S1",
+          "instansi": "CV Mardhiyah Suryono",
+          "tahun_lulus": 2012
+        },
+        {
+          "id": 528,
+          "jenjang": "SMA",
+          "instansi": "PT Kuswandari Tbk",
+          "tahun_lulus": 2008
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "nama": "Danuja Novitasari",
+      "email": "mamansaefullah@gmail.com",
+      "telepon": "+62 (60) 531 0853",
+      "inventories": [
+        {
+          "id": 1063,
+          "nama": "Error",
+          "serial_number": "yb714",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 1064,
+          "nama": "Sunt",
+          "serial_number": "Xg277",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1065,
+          "nama": "Aut",
+          "serial_number": "CA493",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1066,
+          "nama": "Quos",
+          "serial_number": "je949",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 529,
+          "jenjang": "S1",
+          "instansi": "Perum Saptono Maheswara Tbk",
+          "tahun_lulus": 2020
+        },
+        {
+          "id": 530,
+          "jenjang": "S1",
+          "instansi": "PT Marbun",
+          "tahun_lulus": 2011
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "nama": "KH. Kalim Prastuti, S.Pt",
+      "email": "zamira30@pt.sch.id",
+      "telepon": "(0787) 748-2004",
+      "inventories": [
+        {
+          "id": 1067,
+          "nama": "Neque",
+          "serial_number": "zp681",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1068,
+          "nama": "Accusantium",
+          "serial_number": "qq359",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1069,
+          "nama": "Tempore",
+          "serial_number": "fK166",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1070,
+          "nama": "Recusandae",
+          "serial_number": "Ky357",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 531,
+          "jenjang": "S1",
+          "instansi": "PD Hartati Tamba",
+          "tahun_lulus": 2018
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nama": "Hj. Latika Namaga",
+      "email": "enteng99@ud.edu",
+      "telepon": "+62 (011) 781 8209",
+      "inventories": [
+        {
+          "id": 1071,
+          "nama": "Soluta",
+          "serial_number": "fM601",
+          "kategori": [
+            {
+              "id": 2,
+              "nama": "Perabot"
+            },
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1072,
+          "nama": "Dolorum",
+          "serial_number": "Ep462",
+          "kategori": [
+            {
+              "id": 1,
+              "nama": "Elektronik"
+            }
+          ]
+        },
+        {
+          "id": 1073,
+          "nama": "Sint",
+          "serial_number": "zh441",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 532,
+          "jenjang": "S2",
+          "instansi": "CV Zulaika",
+          "tahun_lulus": 2010
+        },
+        {
+          "id": 533,
+          "jenjang": "S1",
+          "instansi": "CV Maheswara Maheswara",
+          "tahun_lulus": 2010
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "nama": "Michelle Permadi",
+      "email": "ciaobella48@hotmail.com",
+      "telepon": "+62 (64) 119 6613",
+      "inventories": [
+        {
+          "id": 1074,
+          "nama": "Magni",
+          "serial_number": "Lg725",
+          "kategori": [
+            {
+              "id": 5,
+              "nama": "Lainnya"
+            },
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        },
+        {
+          "id": 1075,
+          "nama": "Enim",
+          "serial_number": "hP148",
+          "kategori": [
+            {
+              "id": 3,
+              "nama": "Kendaraan"
+            }
+          ]
+        },
+        {
+          "id": 1076,
+          "nama": "Tempora",
+          "serial_number": "Qg110",
+          "kategori": [
+            {
+              "id": 4,
+              "nama": "Alat Tulis"
+            }
+          ]
+        }
+      ],
+      "pendidikan": [
+        {
+          "id": 534,
+          "jenjang": "SMA",
+          "instansi": "CV Wasita Tbk",
+          "tahun_lulus": 2009
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "karyawan": [
+    {
+      "id": 1,
+      "nama": "Ir. Abyasa Sirait, S.Farm",
+      "email": "limar05@yahoo.com",
+      "telepon": "+62-75-743-2475",
+      "tanggal_masuk": "2025-03-16"
+    },
+    {
+      "id": 2,
+      "nama": "Dimaz Hasanah",
+      "email": "gyuniar@yahoo.com",
+      "telepon": "+62-0026-409-0690",
+      "tanggal_masuk": "2017-06-06"
+    },
+    {
+      "id": 3,
+      "nama": "Citra Permata, M.M.",
+      "email": "candrakanta19@perum.sch.id",
+      "telepon": "(0234) 926-4443",
+      "tanggal_masuk": "2017-07-09"
+    },
+    {
+      "id": 4,
+      "nama": "Lala Maulana",
+      "email": "safina56@hotmail.com",
+      "telepon": "080 655 2381",
+      "tanggal_masuk": "2021-03-24"
+    },
+    {
+      "id": 5,
+      "nama": "Qori Saragih, S.Farm",
+      "email": "ellasamosir@perum.desa.id",
+      "telepon": "(000) 414-7403",
+      "tanggal_masuk": "2019-08-14"
+    },
+    {
+      "id": 6,
+      "nama": "Cakrajiya Yuniar",
+      "email": "dpadmasari@gmail.com",
+      "telepon": "+62 (17) 431-9479",
+      "tanggal_masuk": "2024-03-28"
+    },
+    {
+      "id": 7,
+      "nama": "R.A. Anita Budiman, M.M.",
+      "email": "omaryadi@cv.int",
+      "telepon": "084 870 0009",
+      "tanggal_masuk": "2022-11-29"
+    },
+    {
+      "id": 8,
+      "nama": "Drs. Michelle Saragih",
+      "email": "unjanisamosir@pt.org",
+      "telepon": "+62-0520-017-0784",
+      "tanggal_masuk": "2025-09-25"
+    },
+    {
+      "id": 9,
+      "nama": "Yulia Usada",
+      "email": "ivanaryani@yahoo.com",
+      "telepon": "+62 (945) 098 6703",
+      "tanggal_masuk": "2021-11-13"
+    },
+    {
+      "id": 10,
+      "nama": "Vanesa Wibowo",
+      "email": "asmadi31@perum.int",
+      "telepon": "(0419) 608 6177",
+      "tanggal_masuk": "2022-04-20"
+    },
+    {
+      "id": 11,
+      "nama": "Jumadi Budiyanto",
+      "email": "wardayanovitasari@gmail.com",
+      "telepon": "087 640 1138",
+      "tanggal_masuk": "2022-12-25"
+    },
+    {
+      "id": 12,
+      "nama": "Ida Prasasta",
+      "email": "damaniksamsul@hotmail.com",
+      "telepon": "+62 (0685) 527-3024",
+      "tanggal_masuk": "2019-12-20"
+    },
+    {
+      "id": 13,
+      "nama": "Oskar Yuniar",
+      "email": "ynamaga@hotmail.com",
+      "telepon": "(096) 539 3156",
+      "tanggal_masuk": "2021-08-18"
+    },
+    {
+      "id": 14,
+      "nama": "Yance Sitorus, S.Kom",
+      "email": "alambanahardiansyah@cv.ac.id",
+      "telepon": "+62 (0597) 774-2701",
+      "tanggal_masuk": "2016-02-25"
+    },
+    {
+      "id": 15,
+      "nama": "Betania Suryono",
+      "email": "restu94@yahoo.com",
+      "telepon": "+62-039-436-4695",
+      "tanggal_masuk": "2019-05-21"
+    },
+    {
+      "id": 16,
+      "nama": "Daliman Prasetya",
+      "email": "dodo25@gmail.com",
+      "telepon": "+62-0712-562-7194",
+      "tanggal_masuk": "2020-05-26"
+    },
+    {
+      "id": 17,
+      "nama": "Salimah Tampubolon, M.Ak",
+      "email": "hasanahzamira@pt.or.id",
+      "telepon": "(0156) 179 2964",
+      "tanggal_masuk": "2019-09-11"
+    },
+    {
+      "id": 18,
+      "nama": "Sutan Pranata Damanik",
+      "email": "upik99@ud.gov",
+      "telepon": "+62 (896) 023-0145",
+      "tanggal_masuk": "2019-12-29"
+    },
+    {
+      "id": 19,
+      "nama": "Yance Wahyuni",
+      "email": "rahmizulkarnain@cv.ac.id",
+      "telepon": "+62-0009-707-3972",
+      "tanggal_masuk": "2019-05-22"
+    },
+    {
+      "id": 20,
+      "nama": "Dt. Darmaji Ramadan, S.I.Kom",
+      "email": "gramadan@cv.web.id",
+      "telepon": "(0913) 278-6192",
+      "tanggal_masuk": "2024-05-22"
+    },
+    {
+      "id": 21,
+      "nama": "Vivi Kuswoyo",
+      "email": "hardikuswandari@cv.go.id",
+      "telepon": "+62-946-427-6735",
+      "tanggal_masuk": "2017-05-05"
+    },
+    {
+      "id": 22,
+      "nama": "Amalia Haryanti",
+      "email": "mangunsongnrima@hotmail.com",
+      "telepon": "(053) 095 0823",
+      "tanggal_masuk": "2016-07-15"
+    },
+    {
+      "id": 23,
+      "nama": "Anggabaya Oktaviani",
+      "email": "hadriansyah@hotmail.com",
+      "telepon": "0879431207",
+      "tanggal_masuk": "2022-10-30"
+    },
+    {
+      "id": 24,
+      "nama": "KH. Oman Pratiwi",
+      "email": "parman55@cv.my.id",
+      "telepon": "+62 (066) 051 7488",
+      "tanggal_masuk": "2021-11-17"
+    },
+    {
+      "id": 25,
+      "nama": "Ivan Damanik",
+      "email": "safina28@perum.or.id",
+      "telepon": "089 366 3447",
+      "tanggal_masuk": "2022-09-28"
+    }
+  ],
+  "pendidikan": [
+    {
+      "id": 500,
+      "jenjang": "D3",
+      "instansi": "PD Nuraini (Persero) Tbk",
+      "tahun_lulus": 2023,
+      "employeeId": 1
+    },
+    {
+      "id": 501,
+      "jenjang": "SMA",
+      "instansi": "UD Rahimah Sitompul",
+      "tahun_lulus": 2012,
+      "employeeId": 1
+    },
+    {
+      "id": 502,
+      "jenjang": "S2",
+      "instansi": "UD Sihombing Nurdiyanti Tbk",
+      "tahun_lulus": 2021,
+      "employeeId": 2
+    },
+    {
+      "id": 503,
+      "jenjang": "S1",
+      "instansi": "PT Nugroho Rajata Tbk",
+      "tahun_lulus": 2012,
+      "employeeId": 3
+    },
+    {
+      "id": 504,
+      "jenjang": "SMA",
+      "instansi": "PT Suartini Pudjiastuti (Persero) Tbk",
+      "tahun_lulus": 2019,
+      "employeeId": 4
+    },
+    {
+      "id": 505,
+      "jenjang": "S2",
+      "instansi": "CV Wahyudin (Persero) Tbk",
+      "tahun_lulus": 2009,
+      "employeeId": 4
+    },
+    {
+      "id": 506,
+      "jenjang": "S2",
+      "instansi": "PT Najmudin",
+      "tahun_lulus": 2012,
+      "employeeId": 5
+    },
+    {
+      "id": 507,
+      "jenjang": "S2",
+      "instansi": "PT Mangunsong",
+      "tahun_lulus": 2022,
+      "employeeId": 5
+    },
+    {
+      "id": 508,
+      "jenjang": "S2",
+      "instansi": "PD Natsir Haryanto",
+      "tahun_lulus": 2006,
+      "employeeId": 6
+    },
+    {
+      "id": 509,
+      "jenjang": "S2",
+      "instansi": "CV Laksita (Persero) Tbk",
+      "tahun_lulus": 2005,
+      "employeeId": 7
+    },
+    {
+      "id": 510,
+      "jenjang": "D3",
+      "instansi": "UD Permadi Pradipta",
+      "tahun_lulus": 2012,
+      "employeeId": 7
+    },
+    {
+      "id": 511,
+      "jenjang": "D3",
+      "instansi": "UD Uyainah Adriansyah",
+      "tahun_lulus": 2023,
+      "employeeId": 8
+    },
+    {
+      "id": 512,
+      "jenjang": "D3",
+      "instansi": "Perum Habibi Tarihoran (Persero) Tbk",
+      "tahun_lulus": 2019,
+      "employeeId": 9
+    },
+    {
+      "id": 513,
+      "jenjang": "D3",
+      "instansi": "Perum Mahendra Mandasari (Persero) Tbk",
+      "tahun_lulus": 2012,
+      "employeeId": 10
+    },
+    {
+      "id": 514,
+      "jenjang": "SMA",
+      "instansi": "PT Tarihoran Padmasari Tbk",
+      "tahun_lulus": 2014,
+      "employeeId": 10
+    },
+    {
+      "id": 515,
+      "jenjang": "S2",
+      "instansi": "PD Lestari Tbk",
+      "tahun_lulus": 2008,
+      "employeeId": 11
+    },
+    {
+      "id": 516,
+      "jenjang": "SMA",
+      "instansi": "CV Novitasari",
+      "tahun_lulus": 2017,
+      "employeeId": 12
+    },
+    {
+      "id": 517,
+      "jenjang": "SMA",
+      "instansi": "PT Lestari Laksmiwati",
+      "tahun_lulus": 2022,
+      "employeeId": 12
+    },
+    {
+      "id": 518,
+      "jenjang": "D3",
+      "instansi": "UD Mandasari",
+      "tahun_lulus": 2021,
+      "employeeId": 13
+    },
+    {
+      "id": 519,
+      "jenjang": "D3",
+      "instansi": "Perum Ardianto",
+      "tahun_lulus": 2023,
+      "employeeId": 14
+    },
+    {
+      "id": 520,
+      "jenjang": "S2",
+      "instansi": "Perum Nababan",
+      "tahun_lulus": 2014,
+      "employeeId": 14
+    },
+    {
+      "id": 521,
+      "jenjang": "SMA",
+      "instansi": "PT Purnawati Rahmawati",
+      "tahun_lulus": 2014,
+      "employeeId": 15
+    },
+    {
+      "id": 522,
+      "jenjang": "S1",
+      "instansi": "PT Kuswandari",
+      "tahun_lulus": 2021,
+      "employeeId": 16
+    },
+    {
+      "id": 523,
+      "jenjang": "SMA",
+      "instansi": "PT Pratama Prastuti",
+      "tahun_lulus": 2007,
+      "employeeId": 17
+    },
+    {
+      "id": 524,
+      "jenjang": "D3",
+      "instansi": "CV Suryono Uwais Tbk",
+      "tahun_lulus": 2019,
+      "employeeId": 17
+    },
+    {
+      "id": 525,
+      "jenjang": "S2",
+      "instansi": "CV Gunawan",
+      "tahun_lulus": 2014,
+      "employeeId": 18
+    },
+    {
+      "id": 526,
+      "jenjang": "SMA",
+      "instansi": "UD Gunawan Tbk",
+      "tahun_lulus": 2020,
+      "employeeId": 18
+    },
+    {
+      "id": 527,
+      "jenjang": "S2",
+      "instansi": "CV Kuswoyo Marbun (Persero) Tbk",
+      "tahun_lulus": 2005,
+      "employeeId": 19
+    },
+    {
+      "id": 528,
+      "jenjang": "S1",
+      "instansi": "PD Halim (Persero) Tbk",
+      "tahun_lulus": 2017,
+      "employeeId": 19
+    },
+    {
+      "id": 529,
+      "jenjang": "SMA",
+      "instansi": "PT Sinaga",
+      "tahun_lulus": 2022,
+      "employeeId": 20
+    },
+    {
+      "id": 530,
+      "jenjang": "SMA",
+      "instansi": "PD Wahyudin Puspita",
+      "tahun_lulus": 2018,
+      "employeeId": 21
+    },
+    {
+      "id": 531,
+      "jenjang": "S2",
+      "instansi": "PD Nuraini (Persero) Tbk",
+      "tahun_lulus": 2019,
+      "employeeId": 22
+    },
+    {
+      "id": 532,
+      "jenjang": "D3",
+      "instansi": "Perum Hariyah Firmansyah",
+      "tahun_lulus": 2012,
+      "employeeId": 23
+    },
+    {
+      "id": 533,
+      "jenjang": "D3",
+      "instansi": "PD Mahendra Winarno (Persero) Tbk",
+      "tahun_lulus": 2023,
+      "employeeId": 24
+    },
+    {
+      "id": 534,
+      "jenjang": "S2",
+      "instansi": "CV Suwarno",
+      "tahun_lulus": 2013,
+      "employeeId": 24
+    },
+    {
+      "id": 535,
+      "jenjang": "D3",
+      "instansi": "PD Sudiati Saragih Tbk",
+      "tahun_lulus": 2015,
+      "employeeId": 25
+    }
+  ]
+}

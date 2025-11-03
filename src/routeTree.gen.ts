@@ -11,10 +11,18 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutRouteImport } from './routes/about'
-import { Route as BackofficeRouteImport } from './routes/_backoffice'
+import { Route as ManageRouteImport } from './routes/_manage'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as BackofficeManagementIndexRouteImport } from './routes/_backoffice/management/index'
-import { Route as BackofficeManagementUsersIndexRouteImport } from './routes/_backoffice/management/users/index'
+import { Route as AuthRegisterTestRouteImport } from './routes/_auth/register-test'
+import { Route as AuthRegisterStepRouteImport } from './routes/_auth/register-step'
+import { Route as AuthRegisterRefRouteImport } from './routes/_auth/register-ref'
+import { Route as AuthRegisterPiuRouteImport } from './routes/_auth/register-piu'
+import { Route as AuthRegisterRouteImport } from './routes/_auth/register'
+import { Route as ManageUsersIndexRouteImport } from './routes/_manage/users/index'
+import { Route as ManageEmployeesIndexRouteImport } from './routes/_manage/employees/index'
+import { Route as ManageEmployeesEditEmployeeIdRouteImport } from './routes/_manage/employees/edit/$employeeId'
+import { Route as ManageEmployeesDetailIdRouteImport } from './routes/_manage/employees/detail/$id'
+import { Route as ManageEmployeesEditEmployeeIdEducationEditEducationIdRouteImport } from './routes/_manage/employees/edit/$employeeId/education/edit/$educationId'
 
 const BlogRoute = BlogRouteImport.update({
   id: '/blog',
@@ -26,8 +34,8 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BackofficeRoute = BackofficeRouteImport.update({
-  id: '/_backoffice',
+const ManageRoute = ManageRouteImport.update({
+  id: '/_manage',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -35,62 +43,165 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BackofficeManagementIndexRoute =
-  BackofficeManagementIndexRouteImport.update({
-    id: '/management/',
-    path: '/management/',
-    getParentRoute: () => BackofficeRoute,
+const AuthRegisterTestRoute = AuthRegisterTestRouteImport.update({
+  id: '/_auth/register-test',
+  path: '/register-test',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRegisterStepRoute = AuthRegisterStepRouteImport.update({
+  id: '/_auth/register-step',
+  path: '/register-step',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRegisterRefRoute = AuthRegisterRefRouteImport.update({
+  id: '/_auth/register-ref',
+  path: '/register-ref',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRegisterPiuRoute = AuthRegisterPiuRouteImport.update({
+  id: '/_auth/register-piu',
+  path: '/register-piu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRegisterRoute = AuthRegisterRouteImport.update({
+  id: '/_auth/register',
+  path: '/register',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ManageUsersIndexRoute = ManageUsersIndexRouteImport.update({
+  id: '/users/',
+  path: '/users/',
+  getParentRoute: () => ManageRoute,
+} as any)
+const ManageEmployeesIndexRoute = ManageEmployeesIndexRouteImport.update({
+  id: '/employees/',
+  path: '/employees/',
+  getParentRoute: () => ManageRoute,
+} as any)
+const ManageEmployeesEditEmployeeIdRoute =
+  ManageEmployeesEditEmployeeIdRouteImport.update({
+    id: '/employees/edit/$employeeId',
+    path: '/employees/edit/$employeeId',
+    getParentRoute: () => ManageRoute,
   } as any)
-const BackofficeManagementUsersIndexRoute =
-  BackofficeManagementUsersIndexRouteImport.update({
-    id: '/management/users/',
-    path: '/management/users/',
-    getParentRoute: () => BackofficeRoute,
+const ManageEmployeesDetailIdRoute = ManageEmployeesDetailIdRouteImport.update({
+  id: '/employees/detail/$id',
+  path: '/employees/detail/$id',
+  getParentRoute: () => ManageRoute,
+} as any)
+const ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute =
+  ManageEmployeesEditEmployeeIdEducationEditEducationIdRouteImport.update({
+    id: '/education/edit/$educationId',
+    path: '/education/edit/$educationId',
+    getParentRoute: () => ManageEmployeesEditEmployeeIdRoute,
   } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/blog': typeof BlogRoute
-  '/management': typeof BackofficeManagementIndexRoute
-  '/management/users': typeof BackofficeManagementUsersIndexRoute
+  '/register': typeof AuthRegisterRoute
+  '/register-piu': typeof AuthRegisterPiuRoute
+  '/register-ref': typeof AuthRegisterRefRoute
+  '/register-step': typeof AuthRegisterStepRoute
+  '/register-test': typeof AuthRegisterTestRoute
+  '/employees': typeof ManageEmployeesIndexRoute
+  '/users': typeof ManageUsersIndexRoute
+  '/employees/detail/$id': typeof ManageEmployeesDetailIdRoute
+  '/employees/edit/$employeeId': typeof ManageEmployeesEditEmployeeIdRouteWithChildren
+  '/employees/edit/$employeeId/education/edit/$educationId': typeof ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/blog': typeof BlogRoute
-  '/management': typeof BackofficeManagementIndexRoute
-  '/management/users': typeof BackofficeManagementUsersIndexRoute
+  '/register': typeof AuthRegisterRoute
+  '/register-piu': typeof AuthRegisterPiuRoute
+  '/register-ref': typeof AuthRegisterRefRoute
+  '/register-step': typeof AuthRegisterStepRoute
+  '/register-test': typeof AuthRegisterTestRoute
+  '/employees': typeof ManageEmployeesIndexRoute
+  '/users': typeof ManageUsersIndexRoute
+  '/employees/detail/$id': typeof ManageEmployeesDetailIdRoute
+  '/employees/edit/$employeeId': typeof ManageEmployeesEditEmployeeIdRouteWithChildren
+  '/employees/edit/$employeeId/education/edit/$educationId': typeof ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/_backoffice': typeof BackofficeRouteWithChildren
+  '/_manage': typeof ManageRouteWithChildren
   '/about': typeof AboutRoute
   '/blog': typeof BlogRoute
-  '/_backoffice/management/': typeof BackofficeManagementIndexRoute
-  '/_backoffice/management/users/': typeof BackofficeManagementUsersIndexRoute
+  '/_auth/register': typeof AuthRegisterRoute
+  '/_auth/register-piu': typeof AuthRegisterPiuRoute
+  '/_auth/register-ref': typeof AuthRegisterRefRoute
+  '/_auth/register-step': typeof AuthRegisterStepRoute
+  '/_auth/register-test': typeof AuthRegisterTestRoute
+  '/_manage/employees/': typeof ManageEmployeesIndexRoute
+  '/_manage/users/': typeof ManageUsersIndexRoute
+  '/_manage/employees/detail/$id': typeof ManageEmployeesDetailIdRoute
+  '/_manage/employees/edit/$employeeId': typeof ManageEmployeesEditEmployeeIdRouteWithChildren
+  '/_manage/employees/edit/$employeeId/education/edit/$educationId': typeof ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/blog' | '/management' | '/management/users'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/blog'
+    | '/register'
+    | '/register-piu'
+    | '/register-ref'
+    | '/register-step'
+    | '/register-test'
+    | '/employees'
+    | '/users'
+    | '/employees/detail/$id'
+    | '/employees/edit/$employeeId'
+    | '/employees/edit/$employeeId/education/edit/$educationId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/blog' | '/management' | '/management/users'
+  to:
+    | '/'
+    | '/about'
+    | '/blog'
+    | '/register'
+    | '/register-piu'
+    | '/register-ref'
+    | '/register-step'
+    | '/register-test'
+    | '/employees'
+    | '/users'
+    | '/employees/detail/$id'
+    | '/employees/edit/$employeeId'
+    | '/employees/edit/$employeeId/education/edit/$educationId'
   id:
     | '__root__'
     | '/'
-    | '/_backoffice'
+    | '/_manage'
     | '/about'
     | '/blog'
-    | '/_backoffice/management/'
-    | '/_backoffice/management/users/'
+    | '/_auth/register'
+    | '/_auth/register-piu'
+    | '/_auth/register-ref'
+    | '/_auth/register-step'
+    | '/_auth/register-test'
+    | '/_manage/employees/'
+    | '/_manage/users/'
+    | '/_manage/employees/detail/$id'
+    | '/_manage/employees/edit/$employeeId'
+    | '/_manage/employees/edit/$employeeId/education/edit/$educationId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  BackofficeRoute: typeof BackofficeRouteWithChildren
+  ManageRoute: typeof ManageRouteWithChildren
   AboutRoute: typeof AboutRoute
   BlogRoute: typeof BlogRoute
+  AuthRegisterRoute: typeof AuthRegisterRoute
+  AuthRegisterPiuRoute: typeof AuthRegisterPiuRoute
+  AuthRegisterRefRoute: typeof AuthRegisterRefRoute
+  AuthRegisterStepRoute: typeof AuthRegisterStepRoute
+  AuthRegisterTestRoute: typeof AuthRegisterTestRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -109,11 +220,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_backoffice': {
-      id: '/_backoffice'
+    '/_manage': {
+      id: '/_manage'
       path: ''
       fullPath: ''
-      preLoaderRoute: typeof BackofficeRouteImport
+      preLoaderRoute: typeof ManageRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -123,42 +234,122 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_backoffice/management/': {
-      id: '/_backoffice/management/'
-      path: '/management'
-      fullPath: '/management'
-      preLoaderRoute: typeof BackofficeManagementIndexRouteImport
-      parentRoute: typeof BackofficeRoute
+    '/_auth/register-test': {
+      id: '/_auth/register-test'
+      path: '/register-test'
+      fullPath: '/register-test'
+      preLoaderRoute: typeof AuthRegisterTestRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/_backoffice/management/users/': {
-      id: '/_backoffice/management/users/'
-      path: '/management/users'
-      fullPath: '/management/users'
-      preLoaderRoute: typeof BackofficeManagementUsersIndexRouteImport
-      parentRoute: typeof BackofficeRoute
+    '/_auth/register-step': {
+      id: '/_auth/register-step'
+      path: '/register-step'
+      fullPath: '/register-step'
+      preLoaderRoute: typeof AuthRegisterStepRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_auth/register-ref': {
+      id: '/_auth/register-ref'
+      path: '/register-ref'
+      fullPath: '/register-ref'
+      preLoaderRoute: typeof AuthRegisterRefRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_auth/register-piu': {
+      id: '/_auth/register-piu'
+      path: '/register-piu'
+      fullPath: '/register-piu'
+      preLoaderRoute: typeof AuthRegisterPiuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_auth/register': {
+      id: '/_auth/register'
+      path: '/register'
+      fullPath: '/register'
+      preLoaderRoute: typeof AuthRegisterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_manage/users/': {
+      id: '/_manage/users/'
+      path: '/users'
+      fullPath: '/users'
+      preLoaderRoute: typeof ManageUsersIndexRouteImport
+      parentRoute: typeof ManageRoute
+    }
+    '/_manage/employees/': {
+      id: '/_manage/employees/'
+      path: '/employees'
+      fullPath: '/employees'
+      preLoaderRoute: typeof ManageEmployeesIndexRouteImport
+      parentRoute: typeof ManageRoute
+    }
+    '/_manage/employees/edit/$employeeId': {
+      id: '/_manage/employees/edit/$employeeId'
+      path: '/employees/edit/$employeeId'
+      fullPath: '/employees/edit/$employeeId'
+      preLoaderRoute: typeof ManageEmployeesEditEmployeeIdRouteImport
+      parentRoute: typeof ManageRoute
+    }
+    '/_manage/employees/detail/$id': {
+      id: '/_manage/employees/detail/$id'
+      path: '/employees/detail/$id'
+      fullPath: '/employees/detail/$id'
+      preLoaderRoute: typeof ManageEmployeesDetailIdRouteImport
+      parentRoute: typeof ManageRoute
+    }
+    '/_manage/employees/edit/$employeeId/education/edit/$educationId': {
+      id: '/_manage/employees/edit/$employeeId/education/edit/$educationId'
+      path: '/education/edit/$educationId'
+      fullPath: '/employees/edit/$employeeId/education/edit/$educationId'
+      preLoaderRoute: typeof ManageEmployeesEditEmployeeIdEducationEditEducationIdRouteImport
+      parentRoute: typeof ManageEmployeesEditEmployeeIdRoute
     }
   }
 }
 
-interface BackofficeRouteChildren {
-  BackofficeManagementIndexRoute: typeof BackofficeManagementIndexRoute
-  BackofficeManagementUsersIndexRoute: typeof BackofficeManagementUsersIndexRoute
+interface ManageEmployeesEditEmployeeIdRouteChildren {
+  ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute: typeof ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute
 }
 
-const BackofficeRouteChildren: BackofficeRouteChildren = {
-  BackofficeManagementIndexRoute: BackofficeManagementIndexRoute,
-  BackofficeManagementUsersIndexRoute: BackofficeManagementUsersIndexRoute,
+const ManageEmployeesEditEmployeeIdRouteChildren: ManageEmployeesEditEmployeeIdRouteChildren =
+  {
+    ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute:
+      ManageEmployeesEditEmployeeIdEducationEditEducationIdRoute,
+  }
+
+const ManageEmployeesEditEmployeeIdRouteWithChildren =
+  ManageEmployeesEditEmployeeIdRoute._addFileChildren(
+    ManageEmployeesEditEmployeeIdRouteChildren,
+  )
+
+interface ManageRouteChildren {
+  ManageEmployeesIndexRoute: typeof ManageEmployeesIndexRoute
+  ManageUsersIndexRoute: typeof ManageUsersIndexRoute
+  ManageEmployeesDetailIdRoute: typeof ManageEmployeesDetailIdRoute
+  ManageEmployeesEditEmployeeIdRoute: typeof ManageEmployeesEditEmployeeIdRouteWithChildren
 }
 
-const BackofficeRouteWithChildren = BackofficeRoute._addFileChildren(
-  BackofficeRouteChildren,
-)
+const ManageRouteChildren: ManageRouteChildren = {
+  ManageEmployeesIndexRoute: ManageEmployeesIndexRoute,
+  ManageUsersIndexRoute: ManageUsersIndexRoute,
+  ManageEmployeesDetailIdRoute: ManageEmployeesDetailIdRoute,
+  ManageEmployeesEditEmployeeIdRoute:
+    ManageEmployeesEditEmployeeIdRouteWithChildren,
+}
+
+const ManageRouteWithChildren =
+  ManageRoute._addFileChildren(ManageRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  BackofficeRoute: BackofficeRouteWithChildren,
+  ManageRoute: ManageRouteWithChildren,
   AboutRoute: AboutRoute,
   BlogRoute: BlogRoute,
+  AuthRegisterRoute: AuthRegisterRoute,
+  AuthRegisterPiuRoute: AuthRegisterPiuRoute,
+  AuthRegisterRefRoute: AuthRegisterRefRoute,
+  AuthRegisterStepRoute: AuthRegisterStepRoute,
+  AuthRegisterTestRoute: AuthRegisterTestRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
