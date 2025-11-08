@@ -1,5 +1,26 @@
 # My Notes
 ## Client-side Datatable
+// Inisialisasi kolom tabel sesuai dengan entitas (user, employee, education dsb)
+export const EmployeeColumns: ColumnDef<Employee>[] = [
+  {
+    accessorKey: "id",
+    header: "ID",
+    cell: (info) => info.getValue(),
+  },
+  {
+    accessorKey: "nama",
+    header: "Nama",
+    cell: (info) => info.getValue(),
+  },
+  {
+    accessorKey: "email",
+    header: "Email",
+  },
+  {
+    accessorKey: "telepon",
+    header: "Telepon",
+  },
+];
 // Inisialisasi State Sorting, Global Filter (Search), Column Filter (Custom Filter)
 // Untuk pagination sudah built-in di dalam Tanstack-Table sehingga tidak perlu diinisialisasikan secara eksplisit
 const [sorting, setSorting] = useState<SortingState>([]);
