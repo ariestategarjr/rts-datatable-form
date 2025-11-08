@@ -1,3 +1,26 @@
+# My Notes
+## Client-side Datatable
+// Inisialisasi State Sorting, Global Filter (Search), Column Filter (Custom Filter)
+// Untuk pagination sudah built-in di dalam Tanstack-Table sehingga tidak perlu diinisialisasikan secara eksplisit
+const [sorting, setSorting] = useState<SortingState>([]);
+const [globalFilter, setGlobalFilter] = useState("");
+const [columnFilter, setColumnFilter] = useState<ColumnFiltersState>([]);
+// Inisialisasi instance dari Tanstack-Table
+// Parameter wajib data, columns, dan getCoreRowModel()
+const table = useReactTable({
+  data,
+  columns,
+  getCoreRowModel: getCoreRowModel(),
+  // Blok Sorting
+  // onSortingChange: setSorting,
+  // getSortedRowModel: getSortedRowModel(),
+  // Blok Global Filter
+  // Blok Column Filter
+  // state: {
+  //   sorting,
+  // },
+});
+
 # Boilerplate FE
 
 A modern React + TypeScript + Vite boilerplate with TanStack Router, TailwindCSS, Radix UI, and shadcn/ui components.
